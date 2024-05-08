@@ -1,5 +1,11 @@
 package main
 
-import _ "my_first_go_project/hello"
+import (
+	"fmt"
+	_ "my_first_go_project/hello"
+	_ "my_first_go_project/str"
+)
 
-func main() {}
+func main() {
+	fmt.Println()
+}
