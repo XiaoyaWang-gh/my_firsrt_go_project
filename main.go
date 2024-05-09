@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	_ "my_first_go_project/ptr"
+	_ "my_first_go_project/stru"
+	// _ "my_first_go_project/ptr"
 	// "math/rand"
 	// "time"
 	// _ "my_first_go_project/array"
