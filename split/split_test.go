@@ -30,7 +30,7 @@ func TestGroupSplit(t *testing.T) {
 
 	data := map[string]prepare{
 		"college":   {s: "csu-18-33", sep: "-", want: []string{"csu", "18", "33"}},
-		"threebody": {s: "叶文洁·罗辑·程心", sep: "·", want: []string{"叶文", "罗辑", "程心"}},
+		"threebody": {s: "叶文洁·罗辑·程心", sep: "·", want: []string{"叶文洁", "罗辑", "程心"}},
 		"seasons":   {s: "spring*summer*fall*winter", sep: "*", want: []string{"spring", "summer", "fall", "winter"}},
 		"marks":     {s: "↑↓↑↓↑↓↑", sep: "↓", want: []string{"↑", "↑", "↑", "↑"}},
 	}
