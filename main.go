@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	_ "my_first_go_project/stru"
+	_ "my_first_go_project/anonymous"
+	// _ "my_first_go_project/stru"
 	// _ "my_first_go_project/ptr"
-	// "math/rand"
-	// "time"
 	// _ "my_first_go_project/array"
 	// _ "my_first_go_project/hello"
 	// _ "my_first_go_project/str"
+	// "math/rand"
+	// "time"
 )
 
 // func sumArr(a [10]int) int {
